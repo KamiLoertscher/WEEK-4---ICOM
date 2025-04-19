@@ -1,0 +1,93 @@
+img { 
+
+    width: 200px; 
+    height: 250px;
+    display: block;
+    margin: auto;
+    }
+    
+    body { 
+    background-color: #dcd0ff}
+    
+    
+    
+    a { 
+    color:white;
+    text-decoration: underline;}
+
+   p.about{
+    border-style: groove;
+    border-width: 5px;
+    border-color: aqua;
+
+    margin: 30px;
+   }
+  
+
+.NameTag { 
+
+    display: flex; 
+    justify-content: center;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    border: 3px solid black; 
+    font-family: 'Underdog';
+    background: #002bff;
+background: radial-gradient(circle, rgba(0, 43, 255, 1) 6%, rgba(100, 50, 216, 1) 67%);
+   
+
+}
+
+
+
+
+
+p { 
+    margin: 0px; 
+    font-family: 'Underdog';
+
+}
+
+.underdog-regular {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  /* PSUEDO SELECTOR */
+
+  .NameTag:hover { 
+
+    background-color: blueviolet;
+    color: white;
+    border: 3px solid white; 
+
+
+  }
+
+
+ img:hover {
+    scale: 1.5;
+ }
+
+ .underdog-regular {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.vibe { 
+    color: red;
+    font-family: "Dosis", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.vibe:active { 
+    color:purple;
+    text-decoration: underline;
+
+}
